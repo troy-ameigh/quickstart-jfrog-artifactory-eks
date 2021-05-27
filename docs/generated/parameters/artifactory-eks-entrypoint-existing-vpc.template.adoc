@@ -70,8 +70,7 @@
 (`NumofSecondaryNodes`)|`2`|Initial number of secondary node instances to create. If you do not have large enough instances to boot the number of secondary pods, the deployment will fail.|Node EBS volume size
 (`NodeVolumeSize`)|`200`|Size of EBS volumes for master node instances, in gigabytes.|Per-account shared resources
 (`PerAccountSharedResources`)|`Yes`|Choose "No" if you already deployed another EKS Quick Start stack in your AWS account.|Per-Region shared resources
-(`PerRegionSharedResources`)|`Yes`|Choose "No" if you already deployed another EKS Quick Start stack in your Region.|Lambda zips bucket name
-(`LambdaZipsBucketName`)|`**__Blank string__**`|[OPTIONAL] The name of the S3 bucket where the Lambda .zip files should be placed. If you leave this parameter blank, an S3 bucket will be created.
+(`PerRegionSharedResources`)|`Yes`|Choose "No" if you already deployed another EKS Quick Start stack in your Region.
 |===
 .AWS Quick Start configuration
 [width="100%",cols="16%,11%,73%",options="header",]
